@@ -184,6 +184,25 @@ Diciembre       5º C @@@@@
 
 Realiza un programa que pida 8 números enteros y que luego muestre esos números junto con la palabra “par” o “impar” según proceda.
 
+```
+Introduce el número 1: 42
+Introduce el número 2: 2
+Introduce el número 3: 3
+Introduce el número 4: 5
+Introduce el número 5: 7
+Introduce el número 6: 11
+Introduce el número 7: 13
+Introduce el número 8: 17
+42 - Par
+2 - Par
+3 - Impar
+5 - Impar
+7 - Impar
+11 - Impar
+13 - Impar
+17 - Impar
+```
+
 ### Ejercicio 10
 
 Escribe un programa que genere 20 números enteros aleatorios entre 0 y 100 y que los almacene en un array. El programa debe ser capaz de pasar todos los números pares a las primeras posiciones del array (del 0 en adelante) y todos los números impares a las celdas restantes. Utiliza arrays auxiliares si es necesario.
