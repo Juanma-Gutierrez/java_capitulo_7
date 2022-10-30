@@ -33,6 +33,7 @@ a,x, , ,@, , ,+,Q, ,
 Escribe un programa que lea 10 números por teclado y que luego los muestre en orden inverso, es decir, el primero que se introduce es el último en mostrarse y viceversa.
 
 ```
+Ejemplo:
 Introduce el número 1: 42
 Introduce el número 2: 2
 Introduce el número 3: 3
@@ -60,6 +61,7 @@ En la posición 0 está el número 42
 Define tres arrays de 20 números enteros cada una, con nombres numero, cuadrado y cubo. Carga el array numero con valores aleatorios entre 0 y 100. En el array cuadrado se deben almacenar los cuadrados de los valores que hay en el array numero. En el array cubo se deben almacenar los cubos de los valores que hay en numero. A continuación, muestra el contenido de los tres arrays dispuesto en tres columnas.
 
 ```
+Ejemplo:
 Posición 0 del array:       83      6889    571787
 Posición 1 del array:       84      7056    592704
 Posición 2 del array:       76      5776    438976
@@ -87,6 +89,7 @@ Posición 19 del array:      15       225      3375
 Escribe un programa que pida 10 números por teclado y que luego muestre los números introducidos junto con las palabras “máximo” y “mínimo” al lado del máximo y del mínimo respectivamente.
 
 ```
+Ejemplo:
 Introduce el número 1: 42
 Introduce el número 2: 2
 Introduce el número 3: 3
@@ -112,6 +115,26 @@ En la posición 9 del array: 23
 ### Ejercicio 6
 
 Escribe un programa que lea 15 números por teclado y que los almacene en un array. Rota los elementos de ese array, es decir, el elemento de la posición 0 debe pasar a la posición 1, el de la 1 a la 2, etc. El número que se encuentra en la última posición debe pasar a la posición 0. Finalmente, muestra el contenido del array.
+
+```
+Ejemplo:
+Introduce el número 1: 42
+Introduce el número 2: 2
+Introduce el número 3: 3
+Introduce el número 4: 5
+Introduce el número 5: 7
+Introduce el número 6: 11
+Introduce el número 7: 13
+Introduce el número 8: 17
+Introduce el número 9: 19
+Introduce el número 10: 23
+Introduce el número 11: 29
+Introduce el número 12: 31
+Introduce el número 13: 41
+Introduce el número 14: 43
+Introduce el número 15: 47
+47, 43, 41, 31, 29, 23, 19, 17, 13, 11, 7, 5, 3, 2, 42,
+```
 
 ### Ejercicio 7
 
