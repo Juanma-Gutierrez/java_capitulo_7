@@ -12,13 +12,21 @@ Define un array de 12 números enteros con nombre num y asigna los valores segú
 | :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Valor  | 39  | -2  |     |     |  0  |     | 14  |     |  5  | 120 |     |     |
 
+```
+39,-2,0,0,0,0,14,0,5,120,0,0,
+```
+
 ### Ejercicio 2
 
 Define un array de 10 caracteres con nombre simbolo y asigna valores a los elementos según la tabla que se muestra a continuación. Muestra el contenido de todos los elementos del array. ¿Qué sucede con los valores de los elementos que no han sido inicializados?
 
 | Índice |  0  |  1  |  2  |  3  |  4  |  5  |  6  |  7  |  8  |  9  |
 | :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
-| Valor  | 'a' | 'x' |     |     | '@' |     | ''  | '+' | 'Q' |     |
+| Valor  | 'a' | 'x' |     |     | '@' |     | ' ' | '+' | 'Q' |     |
+
+```
+a,x, , ,@, , ,+,Q, ,
+```
 
 ### Ejercicio 3
 
@@ -366,23 +374,23 @@ Array cincuerizado:
 
 Define un array de números enteros de 3 filas por 6 columnas con nombre num y asigna los valores según la siguiente tabla. Muestra el contenido de todos los elementos del array dispuestos en forma de tabla como se muestra en la figura.
 
-| Array num 	| Columna 0 	| Columna 1 	| Columna 2 	| Columna 3 	| Columna 4 	| Columna 5 	|
-|:---------:	|:---------:	|:---------:	|:---------:	|:---------:	|:---------:	|:---------:	|
-|   Fila 0  	|     0     	|     30    	|     2     	|           	|           	|     5     	|
-|   Fila 1  	|     75    	|           	|           	|           	|     0     	|           	|
-|   Fila 2  	|           	|           	|     -2    	|     9     	|           	|     11    	|
+| Array num | Columna 0 | Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 |
+| :-------: | :-------: | :-------: | :-------: | :-------: | :-------: | :-------: |
+|  Fila 0   |     0     |    30     |     2     |           |           |     5     |
+|  Fila 1   |    75     |           |           |           |     0     |           |
+|  Fila 2   |           |           |    -2     |     9     |           |    11     |
 
 ### Ejercicio 2
 
 Escribe un programa que pida 20 números enteros. Estos números se deben introducir en un array de 4 filas por 5 columnas. El programa mostrará las sumas parciales de filas y columnas igual que si de una hoja de cálculo se tratara. La suma total debe aparecer en la esquina inferior derecha.
 
-|             	|             	|             	|             	|             	|           	|
-|:-----------:	|:-----------:	|:-----------:	|:-----------:	|:-----------:	|:---------:	|
-|             	|             	|             	|             	|             	|  Σ fila 0 	|
-|             	|             	|             	|             	|             	|  Σ fila 1 	|
-|             	|             	|             	|             	|             	|  Σ fila 2 	|
-|             	|             	|             	|             	|             	|  Σ fila 3 	|
-| Σ columna 0 	| Σ columna 1 	| Σ columna 2 	| Σ columna 3 	| Σ columna 4 	| **TOTAL** 	|
+|             |             |             |             |             |           |
+| :---------: | :---------: | :---------: | :---------: | :---------: | :-------: |
+|             |             |             |             |             | Σ fila 0  |
+|             |             |             |             |             | Σ fila 1  |
+|             |             |             |             |             | Σ fila 2  |
+|             |             |             |             |             | Σ fila 3  |
+| Σ columna 0 | Σ columna 1 | Σ columna 2 | Σ columna 3 | Σ columna 4 | **TOTAL** |
 
 ### Ejercicio 3
 
@@ -436,9 +444,9 @@ Realiza un programa que muestre por pantalla un array de 9 filas por 9 columnas 
 Realiza un programa que calcule la estatura media, mínima y máxima en centímetros de personas de diferentes países. El array que contiene los nombres de los paises es el siguiente: pais = {“España”, “Rusia”, “Japón”, “Australia”}. Los datos sobre las estaturas se deben simular mediante un array de 4 filas por 10 columnas con números aleatorios generados al azar entre 140 y 210. Los decimales de la media se pueden despreciar. Los nombres de los países se deben mostrar utilizando el array de países (no se pueden escribir directamente).
 
 Ejemplo:
-|            	|     	|     	|     	|     	|     	|     	|     	|     	|     	|     	| MED 	| MIN 	| MAX 	|
-|-----------:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|:---:	|
-|    España: 	| 178 	| 165 	| 148 	| 185 	| 155 	| 141 	| 165 	| 149 	| 155 	| 201 	| 164 	| 141 	| 201 	|
-|     Rusia: 	| 179 	| 189 	| 208 	| 167 	| 186 	| 174 	| 152 	| 192 	| 173 	| 179 	| 179 	| 152 	| 179 	|
-|     Japón: 	| 173 	| 182 	| 168 	| 170 	| 181 	| 197 	| 146 	| 168 	| 166 	| 177 	| 172 	| 146 	| 177 	|
-| Australia: 	| 172 	| 170 	| 187 	| 186 	| 197 	| 143 	| 190 	| 199 	| 187 	| 191 	| 182 	| 143 	| 191 	|
+| | | | | | | | | | | | MED | MIN | MAX |
+|-----------: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |:---: |
+| España: | 178 | 165 | 148 | 185 | 155 | 141 | 165 | 149 | 155 | 201 | 164 | 141 | 201 |
+| Rusia: | 179 | 189 | 208 | 167 | 186 | 174 | 152 | 192 | 173 | 179 | 179 | 152 | 179 |
+| Japón: | 173 | 182 | 168 | 170 | 181 | 197 | 146 | 168 | 166 | 177 | 172 | 146 | 177 |
+| Australia: | 172 | 170 | 187 | 186 | 197 | 143 | 190 | 199 | 187 | 191 | 182 | 143 | 191 |
