@@ -22,8 +22,6 @@ public class Ejercicio7 {
         int[] numArray;
         int num1;
         int num2;
-        String verde;
-        String blanco;
 
         // Var init
         numArray = new int[100];
