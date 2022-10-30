@@ -67,7 +67,7 @@ public class Ejercicio15 {
                 System.out.print("¿Cuántos son? (Introduzca -1 para salir del programa): ");
                 clients = sc.nextInt();
                 if (clients > 4 || clients < -1)
-                    System.out.println("Por favor, introduzca una cantidad correcta de clientes (4 como máximo)");
+                    System.out.println("Por favor, introduzca una cantidad correcta de clientes (4 como máximo)\n\n");
 
                 // Process
                 available = false;
@@ -75,20 +75,21 @@ public class Ejercicio15 {
                     for (int j = 0; j < 10 && !available; j++)
                         if ((table[j] + clients <= 4) && (table[j] == i)) {
                             if (i == 0)
-                                System.out.println("Por favor, siéntense en la mesa número " + j);
+                                System.out.println("Por favor, siéntense en la mesa número " + j + "\n\n");
                             else
                                 System.out.println(
-                                        "Tendrán que compartir mesa. Por favor, siéntense en la mesa número " + j);
+                                        "Tendrán que compartir mesa. Por favor, siéntense en la mesa número " + j
+                                                + "\n\n");
                             table[j] += clients;
                             available = true;
                         }
                 }
                 if (!available)
-                    System.out.println("Lo siento, en estos momentos no queda sitio.");
+                    System.out.println("Lo siento, en estos momentos no queda sitio." + "\n\n");
             } while (clients < -1 || clients > 4);
 
         } while (clients != -1);
-        System.out.println("Gracias. Hasta pronto.");
+        System.out.println("\n\nGracias. Hasta pronto.\n\n");
         sc.close();
     }
 
