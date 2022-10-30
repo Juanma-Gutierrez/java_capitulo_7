@@ -27,7 +27,7 @@ public class Ejercicio3 {
 
         // Process
         for (int i = 0; i < 10; i++) {
-            System.out.println("Introduce el número " + (i + 1) + ": ");
+            System.out.print("Introduce el número " + (i + 1) + ": ");
             numArray[i] = sc.nextInt();
         }
 

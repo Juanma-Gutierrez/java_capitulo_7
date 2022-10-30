@@ -32,6 +32,29 @@ a,x, , ,@, , ,+,Q, ,
 
 Escribe un programa que lea 10 números por teclado y que luego los muestre en orden inverso, es decir, el primero que se introduce es el último en mostrarse y viceversa.
 
+```
+Introduce el número 1: 42
+Introduce el número 2: 2
+Introduce el número 3: 3
+Introduce el número 4: 5
+Introduce el número 5: 7
+Introduce el número 6: 11
+Introduce el número 7: 13
+Introduce el número 8: 17
+Introduce el número 9: 19
+Introduce el número 10: 23
+En la posición 9 está el número 23
+En la posición 8 está el número 19
+En la posición 7 está el número 17
+En la posición 6 está el número 13
+En la posición 5 está el número 11
+En la posición 4 está el número 7
+En la posición 3 está el número 5
+En la posición 2 está el número 3
+En la posición 1 está el número 2
+En la posición 0 está el número 42
+```
+
 ### Ejercicio 4
 
 Define tres arrays de 20 números enteros cada una, con nombres numero, cuadrado y cubo. Carga el array numero con valores aleatorios entre 0 y 100. En el array cuadrado se deben almacenar los cuadrados de los valores que hay en el array numero. En el array cubo se deben almacenar los cubos de los valores que hay en numero. A continuación, muestra el contenido de los tres arrays dispuesto en tres columnas.
