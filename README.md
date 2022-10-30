@@ -207,6 +207,12 @@ Introduce el número 8: 17
 
 Escribe un programa que genere 20 números enteros aleatorios entre 0 y 100 y que los almacene en un array. El programa debe ser capaz de pasar todos los números pares a las primeras posiciones del array (del 0 en adelante) y todos los números impares a las celdas restantes. Utiliza arrays auxiliares si es necesario.
 
+```
+Ejemplo:
+Lista de número inicial:      72, 17, 22, 94, 82, 9, 96, 70, 89, 1, 24, 89, 71, 33, 36, 95, 67, 20, 94, 80,
+Lista de números procesada:   72, 22, 94, 82, 96, 70, 24, 36, 20, 94, 80, 17, 9, 89, 1, 89, 71, 33, 95, 67,
+```
+
 ### Ejercicio 11
 
 Realiza un programa que pida 10 números por teclado y que los almacene en un array. A continuación se mostrará el contenido de ese array junto al índice (0 – 9) utilizando para ello una tabla. Seguidamente el programa pasará los primos a las primeras posiciones, desplazando el resto de números (los que no son primos) de tal forma que no se pierda ninguno. Al final se debe mostrar el array resultante.
