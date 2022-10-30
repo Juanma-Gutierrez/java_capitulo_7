@@ -228,6 +228,23 @@ Ejemplos:
 | :----: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: | :-: |
 | Valor | 5 | 7 | 2 | 11 | 20 | 4 | 32 | 9 | 14 | 6 |
 
+```
+Ejemplo:
+Array inicial:
++----+----+----+----+----+----+----+----+----+----+
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
++----+----+----+----+----+----+----+----+----+----+
+| 10 |  1 |  7 | 49 | 58 | 59 | 42 | 79 | 53 |  0 |
++----+----+----+----+----+----+----+----+----+----+
+
+Array procesado:
++----+----+----+----+----+----+----+----+----+----+
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
++----+----+----+----+----+----+----+----+----+----+
+|  7 | 59 | 79 | 53 |  0 | 10 |  1 | 49 | 58 | 42 |
++----+----+----+----+----+----+----+----+----+----+
+```
+
 ### Ejercicio 12
 
 Realiza un programa que pida 10 números por teclado y que los almacene en un array. A continuación se mostrará el contenido de ese array junto al índice (0 – 9). Seguidamente el programa pedirá dos posiciones a las que llamaremos “inicial” y “final”. Se debe comprobar que inicial es menor que final y que ambos números están entre 0 y 9. El programa deberá colocar el número de la posición inicial en la posición final, rotando el resto de números para que no se pierda ninguno. Al final se debe mostrar el array resultante.
