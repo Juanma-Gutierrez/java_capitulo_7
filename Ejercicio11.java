@@ -39,9 +39,8 @@ public class Ejercicio11 {
 
         // Input data
         for (int i = 0; i < 10; i++) {
-            // System.out.print("Introduce el número " + (i + 1) + ": ");
-            // numArray[i] = sc.nextInt();
-            numArray[i] = (int) (Math.random() * 100);
+            System.out.print("Introduce el número " + (i + 1) + ": ");
+            numArray[i] = sc.nextInt();
         }
 
         // Output 1
