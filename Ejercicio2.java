@@ -16,9 +16,10 @@
 public class Ejercicio2 {
     public static void main(String[] args) {
         // Var declarations
-        char[] charArray = new char[10];
+        char[] charArray;
 
         // Var init
+        charArray = new char[10];
         charArray[0] = 'a';
         charArray[1] = 'x';
         charArray[4] = '@';

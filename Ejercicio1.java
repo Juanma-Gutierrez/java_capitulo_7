@@ -17,9 +17,10 @@
 public class Ejercicio1 {
     public static void main(String[] args) {
         // Var declarations
-        int[] numArray = new int[12];
+        int[] numArray;
 
         // Var init
+        numArray = new int[12];
         numArray[0] = 39;
         numArray[1] = -2;
         numArray[4] = 0;
