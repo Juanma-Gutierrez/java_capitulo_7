@@ -66,8 +66,11 @@ public class Ejercicio15 {
                 // Input data
                 System.out.print("¿Cuántos son? (Introduzca -1 para salir del programa): ");
                 clients = sc.nextInt();
-                if (clients > 4 || clients < -1)
+                if (clients < -1)
                     System.out.println("Por favor, introduzca una cantidad correcta de clientes (4 como máximo)\n\n");
+                if (clients > 4)
+                    System.out.println("Lo siento, no admitimos grupos de " + clients
+                            + ", haga grupos de 4 personas como máximo e intente de nuevo\n\n");
 
                 // Process
                 available = false;
@@ -84,7 +87,7 @@ public class Ejercicio15 {
                             available = true;
                         }
                 }
-                if (!available)
+                if (!available && clients <= 4)
                     System.out.println("Lo siento, en estos momentos no queda sitio." + "\n\n");
             } while (clients < -1 || clients > 4);
 
