@@ -4,6 +4,46 @@ Soluciones a los ejercicios del libro **Aprende Java con ejercicios** de Luis Jo
 
 Este libro está a la venta en <https://leanpub.com/aprendejava>
 
+## Listado de ejercicios
+
+[01 Ejercicio 1](#ejercicio-1)
+[02 Ejercicio 2](#ejercicio-2)
+[03 Ejercicio 3](#ejercicio-3)
+[04 Ejercicio 4](#ejercicio-4)
+[05 Ejercicio 5](#ejercicio-5)
+[06 Ejercicio 6](#ejercicio-6)
+[07 Ejercicio 7](#ejercicio-7)
+[08 Ejercicio 8](#ejercicio-8)
+[09 Ejercicio 9](#ejercicio-9)
+[10 Ejercicio 10](#ejercicio-10)
+[11 Ejercicio 11](#ejercicio-11)
+[12 Ejercicio 12](#ejercicio-12)
+[13 Ejercicio 13](#ejercicio-13)
+[14 Ejercicio 14](#ejercicio-14)
+[15 Ejercicio 15](#ejercicio-15)
+[16 Ejercicio 16](#ejercicio-16)
+[17 Ejercicio 17](#ejercicio-17)
+[18 Ejercicio 18](#ejercicio-18)
+[19 Ejercicio 19](#ejercicio-19)
+[20 Ejercicio 20](#ejercicio-20)
+[21 Ejercicio 21](#ejercicio-21)
+
+## Arrays bidimensionales
+
+[01 Ejercicio bidimensionales 1](#ejercicio-bidimensionales-1)
+[02 Ejercicio bidimensionales 2](#ejercicio-bidimensionales-2)
+[03 Ejercicio bidimensionales 3](#ejercicio-bidimensionales-3)
+[04 Ejercicio bidimensionales 4](#ejercicio-bidimensionales-4)
+[05 Ejercicio bidimensionales 5](#ejercicio-bidimensionales-5)
+[06 Ejercicio bidimensionales 6](#ejercicio-bidimensionales-6)
+[07 Ejercicio bidimensionales 7](#ejercicio-bidimensionales-7)
+[08 Ejercicio bidimensionales 8](#ejercicio-bidimensionales-8)
+[09 Ejercicio bidimensionales 9](#ejercicio-bidimensionales-9)
+[10 Ejercicio bidimensionales 10](#ejercicio-bidimensionales-10)
+[11 Ejercicio bidimensionales 11](#ejercicio-bidimensionales-11)
+[12 Ejercicio bidimensionales 12](#ejercicio-bidimensionales-12)
+[13 Ejercicio bidimensionales 13](#ejercicio-bidimensionales-13)
+
 ### Ejercicio 1
 
 Define un array de 12 números enteros con nombre num y asigna los valores según la tabla que se muestra a continuación. Muestra el contenido de todos los elementos del array. ¿Qué sucede con los valores de los elementos que no han sido inicializados?
@@ -581,7 +621,7 @@ Array cincuerizado:
 
 ## Arrays bidimensionales
 
-### Ejercicio 1
+### Ejercicio bidimensionales 1
 
 Define un array de números enteros de 3 filas por 6 columnas con nombre num y asigna los valores según la siguiente tabla. Muestra el contenido de todos los elementos del array dispuestos en forma de tabla como se muestra en la figura.
 
@@ -591,7 +631,7 @@ Define un array de números enteros de 3 filas por 6 columnas con nombre num y a
 |  Fila 1   |    75     |           |           |           |     0     |           |
 |  Fila 2   |           |           |    -2     |     9     |           |    11     |
 
-### Ejercicio 2
+### Ejercicio bidimensionales 2
 
 Escribe un programa que pida 20 números enteros. Estos números se deben introducir en un array de 4 filas por 5 columnas. El programa mostrará las sumas parciales de filas y columnas igual que si de una hoja de cálculo se tratara. La suma total debe aparecer en la esquina inferior derecha.
 
@@ -603,27 +643,27 @@ Escribe un programa que pida 20 números enteros. Estos números se deben introd
 |             |             |             |             |             | Σ fila 3  |
 | Σ columna 0 | Σ columna 1 | Σ columna 2 | Σ columna 3 | Σ columna 4 | **TOTAL** |
 
-### Ejercicio 3
+### Ejercicio bidimensionales 3
 
 Modifica el programa anterior de tal forma que los números que se introducen en el array se generen de forma aleatoria (valores entre 100 y 999).
 
-### Ejercicio 4
+### Ejercicio bidimensionales 4
 
 Modifica el programa anterior de tal forma que las sumas parciales y la suma total aparezcan en la pantalla con un pequeño retardo, dando la impresión de que el ordenador se queda “pensando” antes de mostrar los números.
 
-### Ejercicio 5
+### Ejercicio bidimensionales 5
 
 Realiza un programa que rellene un array de 6 filas por 10 columnas con números enteros positivos comprendidos entre 0 y 1000 (ambos incluidos). A continuación, el programa deberá dar la posición tanto del máximo como del mínimo.
 
-### Ejercicio 6
+### Ejercicio bidimensionales 6
 
 Modifica el programa anterior de tal forma que no se repita ningún número en el array.
 
-### Ejercicio 7
+### Ejercicio bidimensionales 7
 
 Mejora el juego “Busca el tesoro” de tal forma que si hay una mina a una casilla de distancia, el programa avise diciendo ¡Cuidado! ¡Hay una mina cerca!
 
-### Ejercicio 8
+### Ejercicio bidimensionales 8
 
 Escribe un programa que, dada una posición en un tablero de ajedrez, nos diga a qué casillas podría saltar un alfil que se encuentra en esa posición. Como se indica en la figura, el alfil se mueve siempre en diagonal. El tablero cuenta con 64 casillas. Las columnas se indican con las letras de la “a” a la “h” y las filas se indican del 1 al 8.
 
@@ -634,23 +674,23 @@ El álfil puede moverse a las siguientes posiciones:
 h1 a2 g2 b3 f3 c4 e4 c6 e6 b7 f7 a8 g8
 ```
 
-### Ejercicio 9
+### Ejercicio bidimensionales 9
 
 Realiza un programa que sea capaz de rotar todos los elementos de una matriz cuadrada una posición en el sentido de las agujas del reloj. La matriz debe tener 12 filas por 12 columnas y debe contener números generados al azar entre 0 y 100. Se debe mostrar tanto la matriz original como la matriz resultado, ambas con los números convenientemente alineados.
 
-### Ejercicio 10
+### Ejercicio bidimensionales 10
 
 Realiza el juego de las tres en raya.
 
-### Ejercicio 11
+### Ejercicio bidimensionales 11
 
 Realiza un programa que muestre por pantalla un array de 10 filas por 10 columnas relleno con números aleatorios entre 200 y 300. A continuación, el programa debe mostrar los números de la diagonal que va desde la esquina superior izquierda a la esquina inferior derecha, así como el máximo, el mínimo y la media de los números que hay en esa diagonal.
 
-### Ejercicio 12
+### Ejercicio bidimensionales 12
 
 Realiza un programa que muestre por pantalla un array de 9 filas por 9 columnas relleno con números aleatorios entre 500 y 900. A continuación, el programa debe mostrar los números de la diagonal que va desde la esquina inferior izquierda a la esquina superior derecha, así como el máximo, el mínimo y la media de los números que hay en esa diagonal.
 
-### Ejercicio 13
+### Ejercicio bidimensionales 13
 
 Realiza un programa que calcule la estatura media, mínima y máxima en centímetros de personas de diferentes países. El array que contiene los nombres de los paises es el siguiente: pais = {“España”, “Rusia”, “Japón”, “Australia”}. Los datos sobre las estaturas se deben simular mediante un array de 4 filas por 10 columnas con números aleatorios generados al azar entre 140 y 210. Los decimales de la media se pueden despreciar. Los nombres de los países se deben mostrar utilizando el array de países (no se pueden escribir directamente).
 
