@@ -59,9 +59,55 @@ En la posición 0 está el número 42
 
 Define tres arrays de 20 números enteros cada una, con nombres numero, cuadrado y cubo. Carga el array numero con valores aleatorios entre 0 y 100. En el array cuadrado se deben almacenar los cuadrados de los valores que hay en el array numero. En el array cubo se deben almacenar los cubos de los valores que hay en numero. A continuación, muestra el contenido de los tres arrays dispuesto en tres columnas.
 
+```
+Posición 0 del array:       83      6889    571787
+Posición 1 del array:       84      7056    592704
+Posición 2 del array:       76      5776    438976
+Posición 3 del array:       44      1936     85184
+Posición 4 del array:       48      2304    110592
+Posición 5 del array:       32      1024     32768
+Posición 6 del array:       37      1369     50653
+Posición 7 del array:       21       441      9261
+Posición 8 del array:       18       324      5832
+Posición 9 del array:       87      7569    658503
+Posición 10 del array:      90      8100    729000
+Posición 11 del array:     100     10000   1000000
+Posición 12 del array:       8        64       512
+Posición 13 del array:      80      6400    512000
+Posición 14 del array:      18       324      5832
+Posición 15 del array:      20       400      8000
+Posición 16 del array:      19       361      6859
+Posición 17 del array:      95      9025    857375
+Posición 18 del array:       0         0         0
+Posición 19 del array:      15       225      3375
+```
+
 ### Ejercicio 5
 
 Escribe un programa que pida 10 números por teclado y que luego muestre los números introducidos junto con las palabras “máximo” y “mínimo” al lado del máximo y del mínimo respectivamente.
+
+```
+Introduce el número 1: 42
+Introduce el número 2: 2
+Introduce el número 3: 3
+Introduce el número 4: 5
+Introduce el número 5: 7
+Introduce el número 6: 11
+Introduce el número 7: 13
+Introduce el número 8: 17
+Introduce el número 9: 19
+Introduce el número 10: 23
+En la posición 0 del array: 42 - Máximo
+En la posición 1 del array: 2 - Mínimo
+En la posición 2 del array: 3
+En la posición 3 del array: 5
+En la posición 4 del array: 7
+En la posición 5 del array: 11
+En la posición 6 del array: 13
+En la posición 7 del array: 17
+En la posición 8 del array: 19
+En la posición 9 del array: 23
+```
 
 ### Ejercicio 6
 
