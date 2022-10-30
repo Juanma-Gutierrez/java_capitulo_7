@@ -230,29 +230,29 @@ Ejemplos:
 
 ```
 Ejemplo:
-Introduce el número 1: 6
-Introduce el número 2: 8
-Introduce el número 3: 42
-Introduce el número 4: 43
-Introduce el número 5: 2
-Introduce el número 6: 5
-Introduce el número 7: 100
-Introduce el número 8: 7
-Introduce el número 9: 26
-Introduce el número 10: 13
+Introduce el número 1: 20
+Introduce el número 2: 5
+Introduce el número 3: 7
+Introduce el número 4: 4
+Introduce el número 5: 32
+Introduce el número 6: 9
+Introduce el número 7: 2
+Introduce el número 8: 14
+Introduce el número 9: 11
+Introduce el número 10: 6
 
 Array inicial:
 +----+----+----+----+----+----+----+----+----+----+
 |  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
 +----+----+----+----+----+----+----+----+----+----+
-|  6 |  8 | 42 | 43 |  2 |  5 |100 |  7 | 26 | 13 |
+| 20 |  5 |  7 |  4 | 32 |  9 |  2 | 14 | 11 |  6 |
 +----+----+----+----+----+----+----+----+----+----+
 
 Array procesado:
 +----+----+----+----+----+----+----+----+----+----+
 |  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
 +----+----+----+----+----+----+----+----+----+----+
-| 43 |  2 |  5 |  7 | 13 |  6 |  8 | 42 |100 | 26 |
+|  5 |  7 |  2 | 11 | 20 |  4 | 32 |  9 | 14 |  6 |
 +----+----+----+----+----+----+----+----+----+----+
 ```
 
@@ -270,6 +270,36 @@ Por ejemplo, para inicial = 3 y final = 7:
 | Índice | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |:------: |:-: |:--: |:-: |:-: |:--: |:-: |:-: |:-: |:--: |:--: |
 | Valor | 6 | 20 | 5 | 7 | 32 | 9 | 2 | 4 | 14 | 11 |
+
+```
+Ejemplo:
+Introduce el número de la posición 0: 20
+Introduce el número de la posición 1: 5
+Introduce el número de la posición 2: 7
+Introduce el número de la posición 3: 4
+Introduce el número de la posición 4: 32
+Introduce el número de la posición 5: 9
+Introduce el número de la posición 6: 2
+Introduce el número de la posición 7: 14
+Introduce el número de la posición 8: 11
+Introduce el número de la posición 9: 6
+Introduce la posición inicial (0-9): 3
+Introduce la posición final (0-9): 7
+
+Array inicial:
++----+----+----+----+----+----+----+----+----+----+
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
++----+----+----+----+----+----+----+----+----+----+
+| 20 |  5 |  7 |  4 | 32 |  9 |  2 | 14 | 11 |  6 |
++----+----+----+----+----+----+----+----+----+----+
+
+Array final:
++----+----+----+----+----+----+----+----+----+----+
+|  0 |  1 |  2 |  3 |  4 |  5 |  6 |  7 |  8 |  9 |
++----+----+----+----+----+----+----+----+----+----+
+|  6 | 20 |  5 |  7 | 32 |  9 |  2 |  4 | 14 | 11 |
++----+----+----+----+----+----+----+----+----+----+
+```
 
 ### Ejercicio 13
 
