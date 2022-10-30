@@ -152,6 +152,34 @@ Introduce el número por el que quieres sustituirlo: 42
 
 Realiza un programa que pida la temperatura media que ha hecho en cada mes de un determinado año y que muestre a continuación un diagrama de barras horizontales con esos datos. Las barras del diagrama se pueden dibujar a base de asteriscos o cualquier otro carácter.
 
+```
+Introduce la temperatura media de Enero: 5
+Introduce la temperatura media de Febrero: 7
+Introduce la temperatura media de Marzo: 12
+Introduce la temperatura media de Abril: 18
+Introduce la temperatura media de Mayo: 21
+Introduce la temperatura media de Junio: 27
+Introduce la temperatura media de Julio: 29
+Introduce la temperatura media de Agosto: 32
+Introduce la temperatura media de Septiembre: 30
+Introduce la temperatura media de Octubre: 27
+Introduce la temperatura media de Noviembre: 7
+Introduce la temperatura media de Diciembre: 5
+¿Con qué carácter quieres representar la gráfica?: @
+Enero           5º C @@@@@
+Febrero         7º C @@@@@@@
+Marzo          12º C @@@@@@@@@@@@
+Abril          18º C @@@@@@@@@@@@@@@@@@
+Mayo           21º C @@@@@@@@@@@@@@@@@@@@@
+Junio          27º C @@@@@@@@@@@@@@@@@@@@@@@@@@@
+Julio          29º C @@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Agosto         32º C @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Septiembre     30º C @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
+Octubre        27º C @@@@@@@@@@@@@@@@@@@@@@@@@@@
+Noviembre       7º C @@@@@@@
+Diciembre       5º C @@@@@
+```
+
 ### Ejercicio 9
 
 Realiza un programa que pida 8 números enteros y que luego muestre esos números junto con la palabra “par” o “impar” según proceda.
