@@ -140,6 +140,14 @@ Introduce el número 15: 47
 
 Escribe un programa que genere 100 números aleatorios del 0 al 20 y que los muestre por pantalla separados por espacios. El programa pedirá entonces por teclado dos valores y a continuación cambiará todas las ocurrencias del primer valor por el segundo en la lista generada anteriormente. Los números que se han cambiado deben aparecer entrecomillados.
 
+```
+Ejemplo:
+10, 9, 18, 19, 5, 13, 11, 19, 2, 12, 7, 12, 9, 3, 8, 15, 1, 6, 2, 13, 15, 7, 18, 17, 1, 5, 13, 19, 0, 20, 2, 4, 19, 8, 15, 16, 16, 9, 13, 9, 7, 20, 20, 4, 19, 10, 10, 16, 3, 7, 14, 0, 6, 4, 7, 5, 8, 18, 19, 11, 4, 4, 12, 14, 6, 2, 1, 2, 15, 10, 9, 9, 11, 14, 2, 5, 10, 9, 20, 8, 5, 19, 20, 10, 5, 17, 19, 10, 5, 2, 18, 10, 11, 7, 3, 13, 14, 20, 5, 10,
+Introduce el primer número de los mostrados: 10
+Introduce el número por el que quieres sustituirlo: 42
+"42", 9, 18, 19, 5, 13, 11, 19, 2, 12, 7, 12, 9, 3, 8, 15, 1, 6, 2, 13, 15, 7, 18, 17, 1, 5, 13, 19, 0, 20, 2, 4, 19, 8, 15, 16, 16, 9, 13, 9, 7, 20, 20, 4, 19, "42", "42", 16, 3, 7, 14, 0, 6, 4, 7, 5, 8, 18, 19, 11, 4, 4, 12, 14, 6, 2, 1, 2, 15, "42", 9, 9, 11, 14, 2, 5, "42", 9, 20, 8, 5, 19, 20, "42", 5, 17, 19, "42", 5, 2, 18, "42", 11, 7, 3, 13, 14, 20, 5, "42",
+```
+
 ### Ejercicio 8
 
 Realiza un programa que pida la temperatura media que ha hecho en cada mes de un determinado año y que muestre a continuación un diagrama de barras horizontales con esos datos. Las barras del diagrama se pueden dibujar a base de asteriscos o cualquier otro carácter.

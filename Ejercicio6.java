@@ -42,8 +42,8 @@ public class Ejercicio6 {
         }
 
         // Output data
-        for (int i = 0; i < 15; i++)
-            System.out.print(numArray[i] + ", ");
+        for (int n : numArray)
+            System.out.print(n + ", ");
 
         sc.close();
     }
