@@ -482,10 +482,28 @@ Escribe un programa que muestre por pantalla un array de 10 números enteros
 generados al azar entre 0 y 100. A continuación, el programa debe pedir un
 número al usuario. Se debe comprobar que el número introducido por teclado
 se encuentra dentro del array, en caso contrario se mostrará un mensaje por
-pantalla y se volverá a pedir un número; así hasta que el usuario introduzca uno
-correctamente. A continuación, el programa rotará el array hacia la derecha
+pantalla y se volverá a pedir un número; así hasta que el usuario introduzca uno correctamente. A continuación, el programa rotará el array hacia la derecha
 las veces que haga falta hasta que el número introducido quede situado en la
 posición 0 del array. Por último, se mostrará el array rotado por pantalla.
+
+```
+Ejemplo:
+Array original:
+13 19 40 51 48 60 20 67 1 69
+Introduce un número de los que aparecen en la lista: 20
+Array rotado:
+20 67 1 69 13 19 40 51 48 60
+
+Array original:
+36 63 31 0 43 17 78 65 60 39
+Introduce un número de los que aparecen en la lista: 12
+Por favor, introduce un número correcto
+Array original:
+36 63 31 0 43 17 78 65 60 39
+Introduce un número de los que aparecen en la lista: 0
+Array rotado:
+0 43 17 78 65 60 39 36 63 31
+```
 
 ### Ejercicio 18
 
