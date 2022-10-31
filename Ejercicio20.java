@@ -46,6 +46,7 @@ public class Ejercicio20 {
         } while (counter < numKings);
 
         // Output data
+        System.out.println("\nLos reyes introducidos son:");
         for (int i = 0; i < numKings; i++) {
             counter = 0;
             for (int j = 0; j <= i; j++) {
