@@ -453,9 +453,27 @@ escribiendo los números que se quieren resaltar entre corchetes.
 
 ```
 Ejemplo:
-159 204 20 250 178 90 353 32 229 357 224 54 260 310 140 249 335 326 223 13
-¿Qué números quiere resaltar? (1 – los múltiplos de 5, 2 – los múltiplos de 7): 1
-159 204 [20] [250] 178 [90] 353 32 229 357 224 54 [260] [310] [140] 249 [335] 326 223 13
+339 363 151 54 190 208 131 55 381 56 50 177 59 100 268 26 302 222 340 149
+
+¿Qué deseas hacer?
+1: Resaltar múltiplos de 5
+2: Resaltar múltiplos de 7
+3: Salir
+1
+339 363 151 54 #190# 208 131 #55# 381 56 #50# 177 59 #100# 268 26 302 222 #340# 149
+
+¿Qué deseas hacer?
+1: Resaltar múltiplos de 5
+2: Resaltar múltiplos de 7
+3: Salir
+2
+339 363 151 54 190 208 131 55 381 #56# 50 177 59 100 268 26 302 222 340 149
+
+¿Qué deseas hacer?
+1: Resaltar múltiplos de 5
+2: Resaltar múltiplos de 7
+3: Salir
+3
 ```
 
 ### Ejercicio 17
