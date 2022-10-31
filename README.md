@@ -850,6 +850,37 @@ Introduce la posición del alfil (a-h/1-8), p.ej.d3: d3
 
 Realiza un programa que sea capaz de rotar todos los elementos de una matriz cuadrada una posición en el sentido de las agujas del reloj. La matriz debe tener 12 filas por 12 columnas y debe contener números generados al azar entre 0 y 100. Se debe mostrar tanto la matriz original como la matriz resultado, ambas con los números convenientemente alineados.
 
+```
+Ejemplo:
+Array original:
+   70   93    5    1   84   60   31   47   47    6   13   20
+   93   92   63   91   19   79   60   99   17   15   64   91
+   54   86   69   65   36   44   52   65   43   48   64   88
+   75   63   90   79   17   19    1  100   14   65    3   22
+   54   73   72   64   18   21    4   95   35    7   45   88
+   36  100   31   28   14   93   14   24   56   79   43   11
+   86   16   54   20   16   25   18   62   70   19   88   13
+    5   32   63   87   62    7   50   65   96   25    5   14
+   98    1   66   93   96    1   53   85   42   46    6   50
+   23   46   32   43    7   93   76   49   30   46   26   66
+   46   37   37   32   27   98   96   16   73   65    1   34
+   88   64   42    4   35   39   18    1   44   51   51   10
+
+Array procesado:
+   88   46   23   98    5   86   36   54   75   54   93   70
+   64   37   46    1   32   16  100   73   63   86   92   93
+   42   37   32   66   63   54   31   72   90   69   63    5
+    4   32   43   93   87   20   28   64   79   65   91    1
+   35   27    7   96   62   16   14   18   17   36   19   84
+   39   98   93    1    7   25   93   21   19   44   79   60
+   18   96   76   53   50   18   14    4    1   52   60   31
+    1   16   49   85   65   62   24   95  100   65   99   47
+   44   73   30   42   96   70   56   35   14   43   17   47
+   51   65   46   46   25   19   79    7   65   48   15    6
+   51    1   26    6    5   88   43   45    3   64   64   13
+   10   34   66   50   14   13   11   88   22   88   91   20
+```
+
 ### Ejercicio bidimensionales 10
 
 Realiza el juego de las tres en raya.
