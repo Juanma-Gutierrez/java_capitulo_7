@@ -18,7 +18,6 @@ public class Ejercicio21 {
     public static void main(String[] args) {
         // Var declarations
         int[] numArray;
-        int num;
 
         // Var init
         numArray = new int[15];
