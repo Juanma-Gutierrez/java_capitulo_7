@@ -767,9 +767,61 @@ El número menor es el 52 que está en la fila 2 y la columna 6
 
 Modifica el programa anterior de tal forma que no se repita ningún número en el array.
 
+```
+                Col.0     Col.1     Col.2     Col.3     Col.4     Col.5     Col.6     Col.7     Col.8     Col.9
+   Fila 0:       673       138       927       742      1000       920       287       925       246       633
+   Fila 1:       645       167        69       711       517       944       685        43       101       995
+   Fila 2:       674       337       967       790        49       263       144       931       368       676
+   Fila 3:       513       729        63       577       204       646       781       307       472       812
+   Fila 4:       459       901       864       364        67       436       770       940       429       427
+   Fila 5:       227       288       366       224       140       873       815       736       846       487
+
+El número mayor es el 1000 que está en la fila 0 y la columna 4
+El número menor es el 43 que está en la fila 1 y la columna 7
+```
+
 ### Ejercicio bidimensionales 7
 
 Mejora el juego “Busca el tesoro” de tal forma que si hay una mina a una casilla de distancia, el programa avise diciendo ¡Cuidado! ¡Hay una mina cerca!
+
+```
+Ejemplos:
+Bienvenido al juego del tesoro
+Debes localizar el tesoro sin que te explote la mina
+Tienes 6 intentos
+  0123
+------
+0|
+1|
+2|
+3|
+4|
+Indique la fila: 4
+Indique la columna: 3
+
+Indique la fila: 4
+Indique la columna: 2
+¡¡CUIDADO!! Estás muy cerca de la mina
+Tienes 4 intentos
+  0123
+------
+0|
+1|
+2|
+3|
+4|  XX
+
+Indique la fila: 0
+Indique la columna: 0
+Tienes 0 intentos
+  0123
+------
+0|XXXX
+1|░░░░
+2|░░T░
+3|░@░░
+4|░░XX
+```
 
 ### Ejercicio bidimensionales 8
 
