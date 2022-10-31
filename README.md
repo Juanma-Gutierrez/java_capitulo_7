@@ -735,9 +735,33 @@ Ejemplo:
 
 Modifica el programa anterior de tal forma que las sumas parciales y la suma total aparezcan en la pantalla con un pequeño retardo, dando la impresión de que el ordenador se queda “pensando” antes de mostrar los números.
 
+```
+Ejemplo:
+|     807 |     704 |     226 |     931 |     595 |    3263 |
+|     135 |     648 |     882 |     105 |     256 |    2026 |
+|     726 |     681 |     923 |     892 |     711 |    3933 |
+|     768 |     738 |     324 |     540 |     610 |    2980 |
+|    2436 |    2771 |    2355 |    2468 |    2172 |   12202 |
+```
+
 ### Ejercicio bidimensionales 5
 
 Realiza un programa que rellene un array de 6 filas por 10 columnas con números enteros positivos comprendidos entre 0 y 1000 (ambos incluidos). A continuación, el programa deberá dar la posición tanto del máximo como del mínimo.
+
+```
+Ejemplo:
+
+                Col.0     Col.1     Col.2     Col.3     Col.4     Col.5     Col.6     Col.7     Col.8     Col.9
+   Fila 0:        56       589       271       897       871       383       524       749       394       333
+   Fila 1:       908       150       984       519       865       593       179       634       159       787
+   Fila 2:       383       778       168       627       500        73        52       170       406       951
+   Fila 3:       767       407       445       330       711        92       845       761       507       399
+   Fila 4:       819       999       829       718       344       428       393       474       106       195
+   Fila 5:       278       447       838       907       461       726       339       290        75        61
+
+El número mayor es el 999 que está en la fila 4 y la columna 1
+El número menor es el 52 que está en la fila 2 y la columna 6
+```
 
 ### Ejercicio bidimensionales 6
 
