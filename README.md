@@ -829,9 +829,21 @@ Escribe un programa que, dada una posición en un tablero de ajedrez, nos diga a
 
 ```
 Ejemplo:
-Introduzca la posición del alfil: d5
-El álfil puede moverse a las siguientes posiciones:
-h1 a2 g2 b3 f3 c4 e4 c6 e6 b7 f7 a8 g8
+Introduce la posición del alfil (a-h/1-8), p.ej.d3: d3
+2 3
+
+  abcdefgh
+ +--------+
+1| o   o  |1
+2|  o o   |2
+3|   @    |3
+4|  o o   |4
+5| o   o  |5
+6|o     o |6
+7|       o|7
+8|        |8
+ +--------+
+  abcdefgh
 ```
 
 ### Ejercicio bidimensionales 9
