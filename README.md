@@ -669,6 +669,14 @@ Define un array de números enteros de 3 filas por 6 columnas con nombre num y a
 |  Fila 1   |    75     |           |           |           |     0     |           |
 |  Fila 2   |           |           |    -2     |     9     |           |    11     |
 
+```
+| Array num | Columna 0 | Columna 1 | Columna 2 | Columna 3 | Columna 4 | Columna 5 |
+|-----------|-----------|-----------|-----------|-----------|-----------|-----------|
+|  Fila 0   |        0  |       30  |        2  |        0  |        0  |        5  |
+|  Fila 1   |       75  |        0  |        0  |        0  |        0  |        0  |
+|  Fila 2   |        0  |        0  |       -2  |        9  |        0  |       11  |
+```
+
 ### Ejercicio bidimensionales 2
 
 Escribe un programa que pida 20 números enteros. Estos números se deben introducir en un array de 4 filas por 5 columnas. El programa mostrará las sumas parciales de filas y columnas igual que si de una hoja de cálculo se tratara. La suma total debe aparecer en la esquina inferior derecha.
@@ -681,9 +689,47 @@ Escribe un programa que pida 20 números enteros. Estos números se deben introd
 |             |             |             |             |             | Σ fila 3  |
 | Σ columna 0 | Σ columna 1 | Σ columna 2 | Σ columna 3 | Σ columna 4 | **TOTAL** |
 
+```Ejemplo:
+Introduce los 20 números de la tabla y pulsa INTRO para almacenarlos
+1
+1
+1
+1
+1
+2
+50
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+1
+|       1 |       1 |       1 |       1 |       1 |       5 |
+|       2 |      50 |       1 |       1 |       1 |      55 |
+|       1 |       1 |       1 |       1 |       1 |       5 |
+|       1 |       1 |       1 |       1 |       1 |       5 |
+|       5 |      53 |       4 |       4 |       4 |      70 |
+```
+
 ### Ejercicio bidimensionales 3
 
 Modifica el programa anterior de tal forma que los números que se introducen en el array se generen de forma aleatoria (valores entre 100 y 999).
+
+```
+Ejemplo:
+|     951 |     981 |     653 |     821 |     968 |    4374 |
+|     969 |     359 |     191 |     334 |     183 |    2036 |
+|     391 |     225 |     213 |     372 |     358 |    1559 |
+|     962 |     832 |     743 |     378 |     658 |    3573 |
+|    3273 |    2397 |    1800 |    1905 |    2167 |   11542 |
+```
 
 ### Ejercicio bidimensionales 4
 
