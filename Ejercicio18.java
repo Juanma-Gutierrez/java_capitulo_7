@@ -17,6 +17,25 @@
  */
 
 public class Ejercicio18 {
+    public static void printTable(int[] numArray) {
+        // Output data
+        System.out.println(
+                "┌──────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
+        System.out.print("| Índice:  ");
+        for (int i = 0; i < 10; i++) {
+            System.out.printf("│  %2d ", (i + 1));
+        }
+        System.out.println(
+                "|\n├──────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
+        System.out.print("| Valor:   ");
+
+        for (int n : numArray) {
+            System.out.printf("│ %3d ", n);
+        }
+        System.out.println(
+                "|\n└──────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
+    }
+
     public static void main(String[] args) {
         // Var declarations
         int[] numArray;
@@ -45,26 +64,11 @@ public class Ejercicio18 {
                 lowerArray[lowerTotal++] = numArray[i];
             else
                 higherArray[higherTotal++] = numArray[i];
-
         }
 
         // Output data 1
         System.out.println("\nArray original:");
-        System.out.println(
-                "┌──────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
-        System.out.print("| Índice:  ");
-        for (int i = 0; i < 10; i++) {
-            System.out.printf("│  %2d ", (i + 1));
-        }
-        System.out.println(
-                "|\n├──────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
-        System.out.print("| Valor:   ");
-
-        for (int n : numArray) {
-            System.out.printf("│ %3d ", n);
-        }
-        System.out.println(
-                "|\n└──────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
+        printTable(numArray);
 
         // Process data
         do {
@@ -76,21 +80,7 @@ public class Ejercicio18 {
 
         // Output data 2
         System.out.println("\nArray procesado:");
-        System.out.println(
-                "┌──────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
-        System.out.print("| Índice:  ");
-        for (int i = 0; i < 10; i++) {
-            System.out.printf("│  %2d ", (i + 1));
-        }
-        System.out.println(
-                "|\n├──────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
-        System.out.print("| Valor:   ");
-
-        for (int n : numArray) {
-            System.out.printf("│ %3d ", n);
-        }
-        System.out.println(
-                "|\n└──────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
+        printTable(numArray);
     }
 
 }
