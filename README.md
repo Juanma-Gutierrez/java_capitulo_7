@@ -971,9 +971,44 @@ Lo siento, has perdido
 
 Realiza un programa que muestre por pantalla un array de 10 filas por 10 columnas relleno con números aleatorios entre 200 y 300. A continuación, el programa debe mostrar los números de la diagonal que va desde la esquina superior izquierda a la esquina inferior derecha, así como el máximo, el mínimo y la media de los números que hay en esa diagonal.
 
+```
+291     238     276     274     245     298     296     281     272     201
+203     270     252     291     273     250     262     224     219     216
+206     274     235     298     276     258     280     282     262     281
+245     299     264     250     300     245     275     203     293     228
+215     285     289     214     298     284     262     270     204     268
+290     289     296     206     265     224     245     218     226     238
+258     259     240     222     230     265     298     233     200     204
+290     263     276     285     200     220     278     272     227     206
+299     225     254     231     265     248     240     210     288     288
+255     289     268     258     292     288     251     273     297     227
+
+291     270     235     250     298     224     298     272     288     227
+Máximo: 298
+Mínimo: 224
+Media: 265,30
+```
+
 ### Ejercicio bidimensionales 12
 
 Realiza un programa que muestre por pantalla un array de 9 filas por 9 columnas relleno con números aleatorios entre 500 y 900. A continuación, el programa debe mostrar los números de la diagonal que va desde la esquina inferior izquierda a la esquina superior derecha, así como el máximo, el mínimo y la media de los números que hay en esa diagonal.
+
+```
+744     529     758     586     513     820     556     561     512
+534     890     605     674     694     590     582     712     820
+856     589     814     601     636     747     599     558     503
+752     792     579     753     769     821     855     644     685
+830     785     753     716     756     720     617     630     630
+859     737     851     669     554     815     609     632     764
+848     708     565     504     711     822     577     533     839
+876     576     775     647     799     642     839     551     633
+592     667     888     530     516     823     870     686     535
+
+592     576     565     669     756     821     599     712     512
+Máximo: 821
+Mínimo: 512
+Media: 580,20
+```
 
 ### Ejercicio bidimensionales 13
 
