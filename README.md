@@ -885,6 +885,88 @@ Array procesado:
 
 Realiza el juego de las tres en raya.
 
+```
+JUEGO DEL TRES EN RAYA
+----------------------
+Verás tu jugada con el símbolo 'O' y la del ordenador con 'X'
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │   │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │   │   │   │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │   │   │
+└───┴───┴───┘   └───┴───┴───┘
+Selecciona tu movimiento (1-9): 6
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │   │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │ O │   │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │   │   │
+└───┴───┴───┘   └───┴───┴───┘
+Selecciona tu movimiento (1-9): 3
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │ O │ O │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │   │   │
+└───┴───┴───┘   └───┴───┴───┘
+Selecciona tu movimiento (1-9): 9
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │ O │ O │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │   │ X │
+└───┴───┴───┘   └───┴───┴───┘
+¡¡ Has ganado !!
+
+JUEGO DEL TRES EN RAYA
+----------------------
+Verás tu jugada con el símbolo 'O' y la del ordenador con 'X'
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │   │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │   │   │   │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │   │   │
+└───┴───┴───┘   └───┴───┴───┘
+Selecciona tu movimiento (1-9): 6
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │ O │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │   │   │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │   │   │
+└───┴───┴───┘   └───┴───┴───┘
+Selecciona tu movimiento (1-9): 9
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │ O │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │   │ O │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │   │ X │
+└───┴───┴───┘   └───┴───┴───┘
+Selecciona tu movimiento (1-9): 8
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │   │ O │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │ O │ O │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │   │ X │ X │
+└───┴───┴───┘   └───┴───┴───┘
+Selecciona tu movimiento (1-9): 2
+┌───┬───┬───┐   ┌───┬───┬───┐
+│ 1 │ 2 │ 3 │   │   │ X │ O │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 4 │ 5 │ 6 │   │ O │ O │ X │
+├───┼───┼───┤   ├───┼───┼───┤
+│ 7 │ 8 │ 9 │   │ O │ X │ X │
+└───┴───┴───┘   └───┴───┴───┘
+Lo siento, has perdido
+```
+
 ### Ejercicio bidimensionales 11
 
 Realiza un programa que muestre por pantalla un array de 10 filas por 10 columnas relleno con números aleatorios entre 200 y 300. A continuación, el programa debe mostrar los números de la diagonal que va desde la esquina superior izquierda a la esquina inferior derecha, así como el máximo, el mínimo y la media de los números que hay en esa diagonal.
