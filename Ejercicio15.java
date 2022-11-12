@@ -35,9 +35,8 @@ public class Ejercicio15 {
 
         // Var init
         table = new int[10];
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             table[i] = (int) (Math.random() * 5);
-        }
 
         // Scanner class
         Scanner sc = new Scanner(System.in);
@@ -50,16 +49,14 @@ public class Ejercicio15 {
                 System.out.println(
                         "┌──────────┬───┬───┬───┬───┬───┬───┬───┬───┬───┬───┐");
                 System.out.print("| Mesa nº: ");
-                for (int i = 0; i < 10; i++) {
+                for (int i = 0; i < 10; i++)
                     System.out.printf("│%2d ", (i + 1));
-                }
                 System.out.println(
                         "|\n├──────────┼───┼───┼───┼───┼───┼───┼───┼───┼───┼───┤");
                 System.out.print("|          ");
 
-                for (int t : table) {
+                for (int t : table)
                     System.out.printf("│ %1d ", t);
-                }
                 System.out.println(
                         "|\n└──────────┴───┴───┴───┴───┴───┴───┴───┴───┴───┴───┘");
 
@@ -93,6 +90,8 @@ public class Ejercicio15 {
 
         } while (clients != -1);
         System.out.println("\n\nGracias. Hasta pronto.\n\n");
+
+        // Scanner close
         sc.close();
     }
 

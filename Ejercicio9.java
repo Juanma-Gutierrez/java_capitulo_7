@@ -39,6 +39,7 @@ public class Ejercicio9 {
                 System.out.println(" - Impar");
         }
 
+        // Close scanner
         sc.close();
     }
 }

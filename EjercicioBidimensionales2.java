@@ -22,39 +22,40 @@ public class EjercicioBidimensionales2 {
         int rowTotal[];
         int columnTotal[];
         int total;
+        int counter;
 
         // Var init
         numArray = new int[4][5];
         rowTotal = new int[4];
         columnTotal = new int[5];
         total = 0;
+        counter = 1;
 
         // Scanner class
         Scanner sc = new Scanner(System.in);
 
         // Input data
         System.out.println("Introduce los 20 números de la tabla y pulsa INTRO para almacenarlos");
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++)
             for (int j = 0; j < 5; j++) {
+                System.out.print("Introduce el número " + counter++ + ": ");
                 numArray[i][j] = sc.nextInt();
                 rowTotal[i] += numArray[i][j];
                 columnTotal[j] += numArray[i][j];
                 total += numArray[i][j];
             }
-        }
 
         // Output data
         for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 5; j++) {
+            for (int j = 0; j < 5; j++)
                 System.out.printf("| %7d ", numArray[i][j]);
-            }
             System.out.printf("|\033[91m %7d \033[39;49m|\n", rowTotal[i]);
         }
-        for (int j = 0; j < 5; j++) {
+        for (int j = 0; j < 5; j++)
             System.out.printf("|\033[91m %7d \033[39;49m", columnTotal[j]);
-        }
         System.out.printf("|\033[91m %7d \033[39;49m|\n", total);
 
+        // Scanner close
         sc.close();
     }
 }

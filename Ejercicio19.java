@@ -26,16 +26,13 @@ public class Ejercicio19 {
         System.out.println(
                 "┌──────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
         System.out.print("| Índice:  ");
-        for (int i = 0; i < 12; i++) {
+        for (int i = 0; i < 12; i++)
             System.out.printf("│  %2d ", i);
-        }
         System.out.println(
                 "|\n├──────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
         System.out.print("| Valor:   ");
-
-        for (int n : numArray) {
+        for (int n : numArray)
             System.out.printf("│ %3d ", n);
-        }
         System.out.println(
                 "|\n└──────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
     }
@@ -70,20 +67,18 @@ public class Ejercicio19 {
         pos = sc.nextInt();
 
         // Process
-        for (int i = 0; i < 12; i++) {
-            if (i < pos) {
+        for (int i = 0; i < 12; i++)
+            if (i < pos)
                 numArray[i] = auxArray[i];
-            } else {
-                if (i == pos)
-                    numArray[i] = num;
-                else
-                    numArray[i] = auxArray[i - 1];
-            }
-        }
-        
+            else if (i == pos)
+                numArray[i] = num;
+            else
+                numArray[i] = auxArray[i - 1];
+
         System.out.println("\nArray procesado:");
         printTable(numArray);
 
+        // Scanner close
         sc.close();
     }
 }

@@ -48,9 +48,8 @@ public class Ejercicio14 {
         }
         System.out.println(
                 "|\n├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤");
-        for (String w : wordArray) {
+        for (String w : wordArray)
             System.out.printf("│ %8s ", w);
-        }
         System.out.println(
                 "|\n└──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┘");
 
@@ -58,20 +57,17 @@ public class Ejercicio14 {
         auxArray = wordArray.clone();
 
         // Insert colors
-        for (String a : auxArray) {
-            for (String c : colorArray) {
+        for (String a : auxArray)
+            for (String c : colorArray)
                 if (a.equals(c))
                     wordArray[count++] = a;
-            }
-        }
 
         // Insert not colors
         for (int i = 0; i < 8; i++) {
             isColor = false;
-            for (String c : colorArray) {
+            for (String c : colorArray)
                 if (auxArray[i].equals(c))
                     isColor = true;
-            }
             if (!isColor) {
                 wordArray[count] = auxArray[i];
                 count++;
@@ -81,17 +77,16 @@ public class Ejercicio14 {
         // Output data 2
         System.out.println("\nArray procesado:");
         System.out.println("┌──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┬──────────┐");
-        for (int i = 0; i < 8; i++) {
+        for (int i = 0; i < 8; i++)
             System.out.printf("│ %8d ", i);
-        }
         System.out.println(
                 "|\n├──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┼──────────┤");
-        for (String w : wordArray) {
+        for (String w : wordArray)
             System.out.printf("│ %8s ", w);
-        }
         System.out.println(
                 "|\n└──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┴──────────┘");
 
+        // Close scanner
         sc.close();
     }
 }

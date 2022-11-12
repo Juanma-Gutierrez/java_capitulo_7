@@ -38,7 +38,7 @@ public class Ejercicio16 {
         // Output data 1
         do {
 
-            for (int n : numArray) {
+            for (int n : numArray)
                 switch (resp) {
                     case 1:
                         if (n % 5 == 0)
@@ -56,8 +56,6 @@ public class Ejercicio16 {
                         System.out.print(n + " ");
                 }
 
-            }
-
             // Input data
             System.out.println("\n\n¿Qué deseas hacer?");
             System.out.println("1: Resaltar múltiplos de 5");
@@ -66,6 +64,7 @@ public class Ejercicio16 {
             resp = sc.nextInt();
         } while (resp != 3);
 
+        // Scanner close
         sc.close();
     }
 }

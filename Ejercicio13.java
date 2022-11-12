@@ -65,6 +65,7 @@ public class Ejercicio13 {
                 else
                     System.out.print(n + " ");
 
+        // Close scanner
         sc.close();
     }
 

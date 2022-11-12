@@ -49,13 +49,13 @@ public class Ejercicio20 {
         System.out.println("\nLos reyes introducidos son:");
         for (int i = 0; i < numKings; i++) {
             counter = 0;
-            for (int j = 0; j <= i; j++) {
+            for (int j = 0; j <= i; j++)
                 if (kingsArray[i].equals(kingsArray[j]))
                     counter++;
-            }
             System.out.println(kingsArray[i] + " " + counter + "º");
         }
 
+        // Scanner close
         sc.close();
     }
 }

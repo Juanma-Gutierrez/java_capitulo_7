@@ -35,6 +35,7 @@ public class Ejercicio3 {
         for (int i = 9; i >= 0; i--)
             System.out.println("En la posición " + i + " está el número " + numArray[i]);
 
+        // Close scanner
         sc.close();
     }
 }

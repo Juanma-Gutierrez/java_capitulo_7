@@ -32,8 +32,8 @@ public class EjercicioBidimensionales7 {
         map = new String[5][4];
         moveTry = 6;
         empty = "░";
-        mine = "@";
-        treasure = "T";
+        mine = "\033[91m@\033[39;49m";
+        treasure = "\033[0;33mT\033[0m";
         endGame = false;
         rowTry = 0;
         colTry = 0;
@@ -42,11 +42,10 @@ public class EjercicioBidimensionales7 {
         Scanner sc = new Scanner(System.in);
 
         // Create map
-        for (int i = 0; i < 5; i++) {
-            for (int j = 0; j < 4; j++) {
+        for (int i = 0; i < 5; i++)
+            for (int j = 0; j < 4; j++)
                 map[i][j] = empty;
-            }
-        }
+
         // Put items
         mineX = (int) (Math.random() * 4);
         mineY = (int) (Math.random() * 3);
@@ -54,7 +53,6 @@ public class EjercicioBidimensionales7 {
         do {
             treasureX = (int) (Math.random() * 4);
             treasureY = (int) (Math.random() * 3);
-
         } while (mineX == treasureX && mineY == treasureY);
         map[treasureX][treasureY] = treasure;
 
@@ -69,12 +67,11 @@ public class EjercicioBidimensionales7 {
         System.out.println("------");
         for (int i = 0; i < 5; i++) {
             System.out.print(i + "|");
-            for (int j = 0; j < 4; j++) {
+            for (int j = 0; j < 4; j++)
                 if (map[i][j] == "X" || endGame)
                     System.out.print(map[i][j]);
                 else
                     System.out.print(" ");
-            }
             System.out.println();
         }
 
@@ -94,7 +91,7 @@ public class EjercicioBidimensionales7 {
                 map[rowTry][colTry] = "X";
 
             // Find item
-            if ((map[rowTry][colTry] == "@") || (map[rowTry][colTry] == "T"))
+            if ((map[rowTry][colTry] == "\033[91m@\033[39;49m") || (map[rowTry][colTry] == "\033[0;33mT\033[0m"))
                 endGame = true;
 
             // Near mine
@@ -116,16 +113,16 @@ public class EjercicioBidimensionales7 {
                 }
                 System.out.println();
             }
-
         }
 
-        if (map[rowTry][colTry] == "T")
+        if (map[rowTry][colTry] == "\033[0;33mT\033[0m")
             System.out.println("\n¡Enhorabuena, has conseguido encontrar el tesoro!");
-        if (map[rowTry][colTry] == "@")
+        if (map[rowTry][colTry] == "\033[91m@\033[39;49m")
             System.out.println("\nMala suerte, te ha explotado la mina");
         if (moveTry == 0)
             System.out.println("\nLo siento, te has quedado sin movimientos");
 
+        // Close scanner
         sc.close();
     }
 }

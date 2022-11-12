@@ -33,46 +33,47 @@ public class Ejercicio10 {
         counter = 0;
 
         // Generation data
-        for (int i = 0; i < 20; i++) {
+        for (int i = 0; i < 20; i++)
             numArray[i] = (int) (Math.random() * 101);
-        }
 
         // Output data 1
         System.out.printf("%-30s", "Lista de número inicial:");
-        for (int n : numArray)
-            System.out.print(n + ", ");
+        for (int i = 0; i < numArray.length; i++)
+            if (i == 0)
+                System.out.print(numArray[i]);
+            else
+                System.out.print(", " + numArray[i]);
         System.out.println();
 
         // Process
-        for (int i = 0; i < 20; i++) {
-            if (numArray[i] % 2 == 0) {
+        for (int i = 0; i < 20; i++)
+            if (numArray[i] % 2 == 0)
                 evenArray[i] = numArray[i];
-            } else {
+            else
                 oddArray[i] = numArray[i];
-
-            }
-        }
 
         while (counter < 20) {
             // Insert evens
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 20; i++)
                 if (evenArray[i] >= 0) {
                     numArray[counter] = evenArray[i];
                     counter++;
                 }
-            }
+
             // Insert odds
-            for (int i = 0; i < 20; i++) {
+            for (int i = 0; i < 20; i++)
                 if (oddArray[i] >= 0) {
                     numArray[counter] = oddArray[i];
                     counter++;
                 }
-            }
         }
 
         // Output data 2
         System.out.printf("%-30s", "Lista de números procesada: ");
-        for (int n : numArray)
-            System.out.print(n + ", ");
+        for (int i = 0; i < numArray.length; i++)
+            if (i == 0)
+                System.out.print(numArray[i]);
+            else
+                System.out.print(", " + numArray[i]);
     }
 }

@@ -22,16 +22,13 @@ public class Ejercicio18 {
         System.out.println(
                 "┌──────────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┐");
         System.out.print("| Índice:  ");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++) 
             System.out.printf("│  %2d ", (i + 1));
-        }
         System.out.println(
                 "|\n├──────────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┼─────┤");
         System.out.print("| Valor:   ");
-
-        for (int n : numArray) {
+        for (int n : numArray) 
             System.out.printf("│ %3d ", n);
-        }
         System.out.println(
                 "|\n└──────────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┴─────┘");
     }
@@ -82,5 +79,4 @@ public class Ejercicio18 {
         System.out.println("\nArray procesado:");
         printTable(numArray);
     }
-
 }

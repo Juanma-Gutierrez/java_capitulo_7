@@ -45,6 +45,7 @@ public class Ejercicio6 {
         for (int n : numArray)
             System.out.print(n + ", ");
 
+        // Close scanner
         sc.close();
     }
 }

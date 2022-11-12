@@ -26,26 +26,22 @@ public class EjercicioBidimensionales3 {
         total = 0;
 
         // Input data
-        for (int i = 0; i < 4; i++) {
+        for (int i = 0; i < 4; i++)
             for (int j = 0; j < 5; j++) {
                 numArray[i][j] = (int) (Math.random() * 900) + 100;
                 rowTotal[i] += numArray[i][j];
                 columnTotal[j] += numArray[i][j];
                 total += numArray[i][j];
             }
-        }
 
         // Output data
         for (int i = 0; i < 4; i++) {
-            for (int j = 0; j < 5; j++) {
+            for (int j = 0; j < 5; j++)
                 System.out.printf("| %7d ", numArray[i][j]);
-            }
             System.out.printf("|\033[91m %7d \033[39;49m|\n", rowTotal[i]);
         }
-        for (int j = 0; j < 5; j++) {
+        for (int j = 0; j < 5; j++)
             System.out.printf("|\033[91m %7d \033[39;49m", columnTotal[j]);
-        }
         System.out.printf("|\033[91m %7d \033[39;49m|\n", total);
-
     }
 }

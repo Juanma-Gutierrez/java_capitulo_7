@@ -155,8 +155,12 @@ public class EjercicioBidimensionales10 {
 
         } else if (winner.equals("cpu"))
             System.out.println("Lo siento, has perdido\n");
-        else
+        else {
+            printBoard(gameBoard);
             System.out.println("Ha habido empate, no hay más movimientos\n");
+        }
+
+        // Scanner close
         sc.close();
     }
 

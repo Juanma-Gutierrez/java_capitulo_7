@@ -54,6 +54,5 @@ public class EjercicioBidimensionales11 {
         System.out.println("Máximo: " + max);
         System.out.println("Mínimo: " + min);
         System.out.printf("Media: %.2f\n", ((float) total / 10));
-
     }
 }

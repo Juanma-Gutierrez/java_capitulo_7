@@ -32,18 +32,15 @@ public class Ejercicio21 {
             System.out.print(n + " ");
 
         // Process
-        for (int i = 0; i < 15; i++) {
-            if (numArray[i] % 5 != 0) {
+        for (int i = 0; i < 15; i++)
+            if (numArray[i] % 5 != 0)
                 for (int j = numArray[i] + 1; j < numArray[i] + 5; j++)
                     if (j % 5 == 0)
                         numArray[i] = j;
-            }
-        }
 
         // Output data 2
         System.out.println("\n\nArray cincuerizado:");
         for (int n : numArray)
             System.out.print(n + " ");
-
     }
 }

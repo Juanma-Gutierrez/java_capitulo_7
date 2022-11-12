@@ -39,10 +39,8 @@ public class EjercicioBidimensionales9 {
 
         // Process
         for (int i = 0; i < 12; i++)
-            for (int j = 0; j < 12; j++) {
+            for (int j = 0; j < 12; j++)
                 auxArray[j][11 - i] = numArray[i][j];
-            }
-
 
         // Output data 1
         System.out.println("\nArray procesado:");

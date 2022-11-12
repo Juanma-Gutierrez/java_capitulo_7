@@ -34,7 +34,7 @@ public class EjercicioBidimensionales6 {
                 do {
                     newNumber = true;
                     numArray[i][j] = (int) (Math.random() * 1001);
-                    for (int k = 0; k <=i; k++) {
+                    for (int k = 0; k <= i; k++) {
                         for (int l = 0; l < 10; l++) {
                             if ((numArray[i][j] == numArray[k][l]) && ((i != j) && j != l))
                                 newNumber = false;
@@ -57,15 +57,12 @@ public class EjercicioBidimensionales6 {
 
         // Output data
         System.out.printf("\n%11s", "");
-        for (int j = 0; j < 10; j++) {
-            System.out.printf("%10s", "Col." + j);
-        }
-        System.out.println();
+        for (int j = 0; j < 10; j++)
+            System.out.printf("%10s\n", "Col." + j);
         for (int i = 0; i < 6; i++) {
             System.out.printf("%10s", "Fila " + i + ":");
-            for (int j = 0; j < 10; j++) {
+            for (int j = 0; j < 10; j++)
                 System.out.printf("%10d", numArray[i][j]);
-            }
             System.out.println();
         }
         System.out.println(

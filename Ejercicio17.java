@@ -51,12 +51,11 @@ public class Ejercicio17 {
 
             // Check number
             pos = 0;
-            for (int i = 0; i < 10 && !inside; i++) {
+            for (int i = 0; i < 10 && !inside; i++)
                 if (num == numArray[i])
                     inside = true;
                 else
                     pos++;
-            }
             if (!inside)
                 System.out.println("\n\n\033[91mPor favor, introduce un número correcto\033[39;49m");
         } while (!inside);
@@ -75,6 +74,7 @@ public class Ejercicio17 {
         for (int n : numArray)
             System.out.print(n + " ");
 
+        // Scanner close
         sc.close();
     }
 }

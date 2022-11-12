@@ -46,14 +46,12 @@ public class Ejercicio11 {
         // Output 1
         System.out.println("\nArray inicial:");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", i);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", numArray[i]);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
 
@@ -63,11 +61,9 @@ public class Ejercicio11 {
             prime = true;
             if (numArray[i] == 1)
                 prime = false;
-            for (int j = 2; j <= numArray[i] / 2; j++) {
-                if (numArray[i] % j == 0) {
+            for (int j = 2; j <= numArray[i] / 2; j++)
+                if (numArray[i] % j == 0)
                     prime = false;
-                }
-            }
             if (prime)
                 primeArray[primeCounter++] = numArray[i];
             else
@@ -84,17 +80,16 @@ public class Ejercicio11 {
         // Output 2
         System.out.println("\nArray procesado:");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", i);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", numArray[i]);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
 
+        // Close scanner
         sc.close();
     }
 }

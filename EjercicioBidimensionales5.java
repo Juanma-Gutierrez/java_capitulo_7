@@ -28,7 +28,7 @@ public class EjercicioBidimensionales5 {
         min[0] = Integer.MAX_VALUE;
 
         // Generate data
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 6; i++)
             for (int j = 0; j < 10; j++) {
                 numArray[i][j] = (int) (Math.random() * 1001);
                 if (numArray[i][j] > max[0]) {
@@ -42,19 +42,16 @@ public class EjercicioBidimensionales5 {
                     min[2] = j;
                 }
             }
-        }
 
         // Output data
         System.out.printf("\n%11s", "");
-        for (int j = 0; j < 10; j++) {
+        for (int j = 0; j < 10; j++)
             System.out.printf("%10s", "Col." + j);
-        }
         System.out.println();
         for (int i = 0; i < 6; i++) {
             System.out.printf("%10s", "Fila " + i + ":");
-            for (int j = 0; j < 10; j++) {
+            for (int j = 0; j < 10; j++)
                 System.out.printf("%10d", numArray[i][j]);
-            }
             System.out.println();
         }
         System.out.println(

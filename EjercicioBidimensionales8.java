@@ -26,11 +26,9 @@ public class EjercicioBidimensionales8 {
 
         // Var init
         bishop = new String[8][8];
-        for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; j++) {
+        for (int i = 0; i < 8; i++)
+            for (int j = 0; j < 8; j++)
                 bishop[i][j] = " ";
-            }
-        }
 
         // Scanner class
         Scanner sc = new Scanner(System.in);
@@ -45,12 +43,11 @@ public class EjercicioBidimensionales8 {
 
         // Process
         // Fill movements
-        for (int i = 0; i < 8; i++) {
-            for (int j = 0; j < 8; j++) {
+        for (int i = 0; i < 8; i++)
+            for (int j = 0; j < 8; j++)
                 if (Math.abs(row - i) == Math.abs(col - j))
                     bishop[i][j] = "o";
-            }
-        }
+
         // Fill bishop
         bishop[row][col] = "@";
 
@@ -59,14 +56,14 @@ public class EjercicioBidimensionales8 {
         System.out.println(" +--------+");
         for (int i = 0; i < 8; i++) {
             System.out.print((i + 1) + "|");
-            for (int j = 0; j < 8; j++) {
+            for (int j = 0; j < 8; j++)
                 System.out.print(bishop[i][j]);
-            }
             System.out.println("|" + (i + 1));
         }
         System.out.println(" +--------+");
         System.out.println("  abcdefgh\n");
 
+        // Scanner close
         sc.close();
     }
 }

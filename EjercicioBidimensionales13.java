@@ -50,6 +50,5 @@ public class EjercicioBidimensionales13 {
             }
             System.out.printf("|%4d |%4d |%4d |\n", ((int) total / 10), min, max);
         }
-
     }
 }

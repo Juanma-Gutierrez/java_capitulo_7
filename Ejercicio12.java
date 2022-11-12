@@ -55,14 +55,12 @@ public class Ejercicio12 {
         // Output 1
         System.out.println("\nArray inicial:");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", i);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", numArray[i]);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
 
@@ -87,17 +85,16 @@ public class Ejercicio12 {
         // Output 2
         System.out.println("\nArray final:");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", i);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
-        for (int i = 0; i < 10; i++) {
+        for (int i = 0; i < 10; i++)
             System.out.printf("|%3d ", numArray[i]);
-        }
         System.out.println("|");
         System.out.println("+----+----+----+----+----+----+----+----+----+----+");
 
+        // Close scanner
         sc.close();
     }
 

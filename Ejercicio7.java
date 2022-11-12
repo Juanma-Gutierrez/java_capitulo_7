@@ -30,9 +30,8 @@ public class Ejercicio7 {
         Scanner sc = new Scanner(System.in);
 
         // Input data 1
-        for (int i = 0; i < 100; i++) {
+        for (int i = 0; i < 100; i++)
             numArray[i] = (int) (Math.random() * 21);
-        }
 
         // Output data 1
         for (int n : numArray)
@@ -52,6 +51,8 @@ public class Ejercicio7 {
             } else
                 System.out.print(numArray[i] + ", ");
         }
+
+        // Close scanner
         sc.close();
     }
 }

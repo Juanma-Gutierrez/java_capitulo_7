@@ -32,13 +32,11 @@ public class EjercicioBidimensionales1 {
 
         // Output data
         System.out.print("| Array num ");
-        for (int i = 0; i < 6; i++) {
+        for (int i = 0; i < 6; i++)
             System.out.printf("%-12s", "| Columna " + i);
-        }
         System.out.println("|");
-        for (int i = 0; i < 7; i++) {
+        for (int i = 0; i < 7; i++)
             System.out.printf("%-12s", "|-----------");
-        }
         System.out.println("|");
         for (int i = 0; i < 3; i++) {
             System.out.printf("%-12s", "|  Fila " + i);
@@ -46,6 +44,5 @@ public class EjercicioBidimensionales1 {
                 System.out.printf("| %8d  ", numArray[i][j]);
             System.out.println("|");
         }
-
     }
 }

@@ -60,11 +60,12 @@ public class Ejercicio8 {
         // Output data
         for (int i = 0; i < 12; i++) {
             System.out.printf("%-13s%4dº C ", month[i], tempArray[i]);
-            for (int j = 0; j < tempArray[i]; j++) {
+            for (int j = 0; j < tempArray[i]; j++)
                 System.out.print(character);
-            }
             System.out.println();
         }
+
+        // Close scanner
         sc.close();
     }
 }
