@@ -22,7 +22,6 @@ public class Ejercicio20 {
     public static void main(String[] args) {
         // Var declarations
         String[] kingsArray;
-        String[] auxArray;
         int counter;
         int numKings;
 
@@ -36,13 +35,11 @@ public class Ejercicio20 {
         // Var init
         counter = 0;
         kingsArray = new String[numKings];
-        auxArray = new String[numKings];
 
         // Input data
         System.out.println("Vaya introduciendo los nombres de los reyes y pulsando INTRO.");
         do {
-            kingsArray[counter] = sc.next();
-            auxArray[counter] = kingsArray[counter++];
+            kingsArray[counter++] = sc.next();
         } while (counter < numKings);
 
         // Output data
