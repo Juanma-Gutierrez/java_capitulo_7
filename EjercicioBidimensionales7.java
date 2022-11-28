@@ -91,7 +91,7 @@ public class EjercicioBidimensionales7 {
                 map[rowTry][colTry] = "X";
 
             // Find item
-            if ((map[rowTry][colTry] == "\033[91m@\033[39;49m") || (map[rowTry][colTry] == "\033[0;33mT\033[0m"))
+            if ((map[rowTry][colTry] == mine) || (map[rowTry][colTry] == treasure))
                 endGame = true;
 
             // Near mine
@@ -115,9 +115,9 @@ public class EjercicioBidimensionales7 {
             }
         }
 
-        if (map[rowTry][colTry] == "\033[0;33mT\033[0m")
+        if (map[rowTry][colTry] == treasure)
             System.out.println("\n¡Enhorabuena, has conseguido encontrar el tesoro!");
-        if (map[rowTry][colTry] == "\033[91m@\033[39;49m")
+        if (map[rowTry][colTry] == mine)
             System.out.println("\nMala suerte, te ha explotado la mina");
         if (moveTry == 0)
             System.out.println("\nLo siento, te has quedado sin movimientos");
